@@ -1,7 +1,3 @@
-<p align="center">
-  <a href="https://github.com/konkor/quote_machine"><img src="https://img.shields.io/github/license/konkor/quote_machine.svg" alt="GPLv3 License"></a>
-  <a href="https://github.com/konkor/quote_machine"><img src="https://img.shields.io/github/stars/konkor/quote_machine.svg?style=social&label=Star&style=flat-square" alt="Stars"></a>
-</p>
 
 # [Quote Machine](https://github.com/konkor/quote_machine)
 
