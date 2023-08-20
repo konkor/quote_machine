@@ -86,7 +86,7 @@ class QuoteMachine extends React.Component {
           <button id="new-quote" className="btn" onClick={this.newQuote} style={background}>More</button>
         </div>
       </div>
-        <footer>Created by <a href="https://github.com/konkor">konkor</a></footer>
+        <footer>Created by <a href="https://github.com/konkor/quote_machine">konkor</a></footer>
       </div>
     );
   }
