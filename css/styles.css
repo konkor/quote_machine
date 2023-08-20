@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+* {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+}
+
+div {
+
+}
+
+#quote_machine_container {
+  margin: 0;
+  height: 100vh;
+}
+
+#quote-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+#quote-box {
+  width: 460px;
+  margin: auto;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #333;
+  border-radius: 3px;
+  padding: 32px 48px;
+
+}
+
+.fades-animation {
+  animation: fades 1.5s ease-in-out infinite;
+}
+
+@keyframes fades {
+   0% {
+     opacity: 0.5;
+   }
+   50% {
+     opacity: 1;
+   }
+   100% {
+     opacity: 0.5;
+   }
+}
+
+#text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.75em;
+}
+
+#author {
+  height: auto;
+  padding-top: 20px;
+  text-align: right;
+}
+
+#quote-panel {
+  margin-top: 20px;
+  padding: 1em 0.5em;
+
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+#tweet-quote {
+  display:inline-block;
+  padding: 0.5em 0.8em;
+  font-size: 1.2em;
+  text-decoration: none;
+
+}
+
+#new-quote {
+  display: block;
+  float: right;
+  height: 38px;
+  padding: 12px 12px;
+  margin: auto;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 0.8em;
+  color: #fff;
+}
+footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
